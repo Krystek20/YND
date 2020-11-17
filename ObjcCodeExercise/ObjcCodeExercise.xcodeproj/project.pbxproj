@@ -158,6 +158,7 @@
 				D4ED3A3F25630D8A00CD9290 /* Scenes */,
 				63E9814A25598EA800872430 /* ImageCache */,
 				63F01E60254845A8000136CD /* Networking */,
+				86E3F8AD442B4C71B442D2EB /* Extensions */,
 				63F01E2825484568000136CD /* AppDelegate.h */,
 				63F01E2925484568000136CD /* AppDelegate.m */,
 				63F01E2B25484568000136CD /* SceneDelegate.h */,
@@ -170,7 +171,6 @@
 				63F01E392548456B000136CD /* Info.plist */,
 				63E9814B25598EEC00872430 /* ObjcCodeExercise-Bridging-Header.h */,
 				63F01E3A2548456B000136CD /* main.m */,
-				86E3F8AD442B4C71B442D2EB /* Extensions */,
 			);
 			path = ObjcCodeExercise;
 			sourceTree = "<group>";
@@ -180,9 +180,9 @@
 			children = (
 				63F01E462548456B000136CD /* Info.plist */,
 				D4ED39FD2562D50000CD9290 /* ImageMetadataParserTests.swift */,
-				86E3F126AFD52A92789458AA /* Helpers */,
 				86E3FC3583D31EE855142DF2 /* UIColorHexStringTests.swift */,
 				D4ED3A352562FED200CD9290 /* ImageMetadataTests.swift */,
+				86E3F126AFD52A92789458AA /* Helpers */,
 			);
 			path = ObjcCodeExerciseTests;
 			sourceTree = "<group>";
