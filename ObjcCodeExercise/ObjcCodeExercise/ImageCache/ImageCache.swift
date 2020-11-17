@@ -7,7 +7,7 @@
 import Foundation
 import UIKit
 
-final class ImageCache {
+final class ImageCache: NSObject {
 
     private let fileManager = FileManager.default
     private let cachesPath = FileManager.default.urls(for: .cachesDirectory, in: .userDomainMask)[0]
@@ -32,7 +32,7 @@ final class ImageCache {
         return self.cachesPath.appendingPathComponent(imageName)
     }
 
-    func cachedImage(for imageName: String) -> UIImage? {
+    @objc func cachedImage(for imageName: String) -> UIImage? {
 
         clearCacheIfNeeded()
 
