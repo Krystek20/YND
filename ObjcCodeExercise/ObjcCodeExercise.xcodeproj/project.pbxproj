@@ -93,7 +93,6 @@
 		D459B8EA256389D2003D3A65 /* ImageViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewCell.swift; sourceTree = "<group>"; };
 		D459B8F125638F89003D3A65 /* ImageViewCellData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewCellData.swift; sourceTree = "<group>"; };
 		D459B8F7256390C6003D3A65 /* ImageViewCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewCellModel.swift; sourceTree = "<group>"; };
-		D4ED39FC2562D4FF00CD9290 /* ObjcCodeExerciseTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ObjcCodeExerciseTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		D4ED39FD2562D50000CD9290 /* ImageMetadataParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageMetadataParserTests.swift; sourceTree = "<group>"; };
 		D4ED3A352562FED200CD9290 /* ImageMetadataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageMetadataTests.swift; sourceTree = "<group>"; };
 		D4ED3A3A25630C8600CD9290 /* ImageCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewController.swift; sourceTree = "<group>"; };
@@ -181,7 +180,6 @@
 			children = (
 				63F01E462548456B000136CD /* Info.plist */,
 				D4ED39FD2562D50000CD9290 /* ImageMetadataParserTests.swift */,
-				D4ED39FC2562D4FF00CD9290 /* ObjcCodeExerciseTests-Bridging-Header.h */,
 				86E3F126AFD52A92789458AA /* Helpers */,
 				86E3FC3583D31EE855142DF2 /* UIColorHexStringTests.swift */,
 				D4ED3A352562FED200CD9290 /* ImageMetadataTests.swift */,
@@ -706,7 +704,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = co.ynd.objc.code.exercise.ObjcCodeExerciseTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "ObjcCodeExerciseTests/ObjcCodeExerciseTests-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -731,7 +729,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = co.ynd.objc.code.exercise.ObjcCodeExerciseTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "ObjcCodeExerciseTests/ObjcCodeExerciseTests-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ObjcCodeExercise.app/ObjcCodeExercise";
