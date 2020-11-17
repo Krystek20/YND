@@ -14,10 +14,6 @@ final class ImageMetadataParser: NSObject, ImageMetadataParsing {
     private let jsonDecoder: JSONDecoder
     private let jsonSerializationType: JSONSerialization.Type
     
-    @objc static func defaultParser() -> ImageMetadataParser {
-        ImageMetadataParser()
-    }
-
     // MARK: - Initialization
 
     init(jsonDecoder: JSONDecoder = JSONDecoder(),
@@ -57,5 +53,11 @@ final class ImageMetadataParser: NSObject, ImageMetadataParsing {
 
     private func convertData(from dictionary: [String: Any]) throws -> Data {
         try jsonSerializationType.data(withJSONObject: dictionary)
+    }
+}
+
+extension ImageMetadataParser {
+    @objc static func defaultParser() -> ImageMetadataParser {
+        ImageMetadataParser()
     }
 }
